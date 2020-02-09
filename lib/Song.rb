@@ -16,6 +16,10 @@ class Song
     @@all
   end
   
+  def self.name
+    @name
+  end
+  
   
   
 end
