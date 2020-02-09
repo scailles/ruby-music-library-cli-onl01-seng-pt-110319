@@ -26,5 +26,11 @@ class Genre
     @@all.clear
   end
   
+  def self.create(name)
+    genre= self.new(name)
+    genre.save
+    genre
+  end
+  
   
 end
