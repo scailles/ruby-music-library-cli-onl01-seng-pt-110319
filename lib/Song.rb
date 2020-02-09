@@ -1,7 +1,7 @@
 class Song
   
   @@all= []
-  @@alll= []
+
   attr_accessor :name
   
   def initalize(name)
