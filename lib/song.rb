@@ -1,10 +1,11 @@
 class Song
   
+  @@all= []
   attr_accessor :name
   
   def initalize(name)
-   new_song= name
    @name= name
+   @@all << self
   end
   
   
