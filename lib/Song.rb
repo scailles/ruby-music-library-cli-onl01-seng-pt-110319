@@ -16,7 +16,7 @@ class Song
     @@all
   end
   
-  def Song.name
+  def self.name
     @name
   end
   
