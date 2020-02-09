@@ -6,11 +6,10 @@ class Song
   
   def initalize(name)
    @name= name
-   @@alll << self
   end
   
   def self.save
-    @@all << @@alll
+    @@all << self
   end
   
   def self.all
