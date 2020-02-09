@@ -4,7 +4,7 @@ class Song
   
   def initalize(name)
    new_song= name
-   @namae= name
+   @name= name
   end
   
   
