@@ -5,7 +5,7 @@ class Artist
   @@all= []
   
   
-  def initalize(name)
+  def initialize(name)
     @name=name
     self.save
   end
@@ -24,7 +24,8 @@ class Artist
   
   def self.create(name)
     artist= Artist.new(name)
-    self.save
+    artist.save
+    artist
   end
   
   
