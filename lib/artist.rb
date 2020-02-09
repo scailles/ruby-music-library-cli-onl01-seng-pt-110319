@@ -1,4 +1,6 @@
 class Artist
+  require "Song"
+  
   
   attr_accessor :name, :songs, :artist
   
