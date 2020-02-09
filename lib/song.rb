@@ -3,7 +3,8 @@ class Song
   attr_accessor :name
   
   def initalize(name)
-   @name=name
+   new_song= name
+   @namae= name
   end
   
   
