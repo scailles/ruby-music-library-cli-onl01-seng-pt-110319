@@ -1,5 +1,5 @@
 class Artist
-  require 'Song'
+  require_relative 'Song'
   
   
   attr_accessor :name, :songs, :artist
