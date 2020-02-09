@@ -8,6 +8,8 @@ class Artist
     @name=name
     @songs=[]
     if self.uniq
+      @songs << self
+    end
     save
   end
   
