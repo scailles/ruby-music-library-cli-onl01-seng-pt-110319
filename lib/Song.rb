@@ -1,12 +1,15 @@
 class Song
   
   @@all= []
+  @@alll= []
   attr_accessor :name
   
   def initalize(name)
    @name= name
-   @@all << self
   end
+  
+  def self.save
+    
   
   def self.all
     @@all
