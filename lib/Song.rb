@@ -16,7 +16,7 @@ class Song
     @@all
   end
   
-  def .name
+  def Song.name
     @name
   end
   
