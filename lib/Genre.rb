@@ -1,9 +1,10 @@
 class Genre
   
-   attr_accessor :name
+ attr_accessor :name 
   
   @@all= []
- 
+
+
   def initalize(name)
    @name= name
   end
@@ -15,5 +16,14 @@ class Genre
   def self.all
     @@all
   end
+  
+  def self.name
+    @name
+  end
+  
+  def self.destroy_all
+    @@all.clear
+  end
+  
   
 end
