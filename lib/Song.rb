@@ -6,6 +6,7 @@ class Song
   
   def initalize(name)
    @name= name
+   name= Song.new
   end
   
   def self.save
