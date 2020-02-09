@@ -18,7 +18,12 @@ class Artist
     @@all
   end
   
-  def 
+  def self.destroy_all
+    @@all.clear
+  end
+  
+  def self.create
+    
   
   
 end
