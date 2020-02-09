@@ -29,6 +29,7 @@ class Song
     song= self.new(name)
     save
     song
+    @name
   end
     
   
