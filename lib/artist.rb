@@ -7,9 +7,6 @@ class Artist
   def initialize(name, songs)
     @name=name
     @songs=[]
-    if self.uniq
-      @songs << self
-    end
     save
   end
   
