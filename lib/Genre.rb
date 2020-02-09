@@ -7,6 +7,7 @@ class Genre
 
   def initalize(name)
    @name= name
+   self.save
   end
   
   def self.save
